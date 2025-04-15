@@ -150,3 +150,35 @@
     margin-right: 8px;
   }
   
+  .conamor{
+    padding: 50px;
+  }
+
+  .conamor h1{
+    color: black;
+    text-align: center;
+
+  }
+  .conamor p{
+    color: #000000;
+    text-align: center;
+  }
+
+  .botsobrenos{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin:30px auto auto auto;
+    background-color: rgba(41, 128, 41, 0.801);
+
+    
+  }
+  .botsobrenos a{
+    text-decoration: none;
+    color:#f2f2f2;
+    display: inline-block;
+    margin-top: 15px;
+    
+  }
+  
