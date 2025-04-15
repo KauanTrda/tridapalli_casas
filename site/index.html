@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tridapalli Casa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">
+      <img src="logo.png" alt="Logo Tridapalli casas">
+      <h1><span>Tridapalli</span><br><span class="highlight">Cassas</span></h1>
+    </div>
+
+    <!-- Menu de três pontinhos -->
+    <div class="menu-toggle" id="menu-toggle">&#8942;</div>
+
+    <!-- Itens do menu suspenso -->
+    <nav class="mobile-menu" id="mobile-menu">
+      <a href="#">Início</a>
+      <a href="#">Serviços</a>
+      <a href="#">Portfólio</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div class="overlay">
+      <h2>Reformas e Construções</h2>
+      <h1>Agende um<br><span>Orçamento Gratuito<br>& Visita Técnica</span></h1>
+      <div class="buttons">
+        <a href="#" class="btn">COMO TRABALHAMOS</a>
+        <a href="#" class="btn">COMECE JÁ</a>
+        <a href="https://wa.me/5547999553868" class="btn whatsapp">
+          <img src="" alt=""> (47) 99955-3868
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Script para abrir o menu -->
+  <script>
+    const toggle = document.getElementById('menu-toggle');
+    const menu = document.getElementById('mobile-menu');
+
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
